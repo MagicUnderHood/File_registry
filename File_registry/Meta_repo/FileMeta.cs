@@ -15,7 +15,7 @@ namespace Meta_repo
             public DateTime Created { get; set; }
             [Indexed]
             public string Filename { get; set; }
-            public string[] Args { get; set }
+            public string[] Args { get; set; }
 
 
            override public string ToString()
